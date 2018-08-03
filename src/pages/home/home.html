@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Chatting Application
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item padding>
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text" [(ngModel)]='username'></ion-input>
+  </ion-item>
+	<button ion-button block (click)="login()">Login</button>
+</ion-content>
